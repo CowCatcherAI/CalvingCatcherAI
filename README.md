@@ -6,3 +6,5 @@ Following up CowCatcherAI with CalvingCatcherAI, this projects mainly revolves a
 📷 Calving pen camera footage ──→ 🤖 AI Computer Vision ──→ ⚡ calving detection ──→ 💽 save image ──→ AI agent gives opinion and context ──→ 📲 Telegram notification with image and AI agent's reasoning
 
 We are combining multiple existing open source technologies - for computer vision we are using YOLO from Ultralytics, for the AI agent we are using Qwen 3.0 and Moondream AI, which are trained with context around calving, and lastly the Telegram Bot
+
+Latest update is using Ip camera with thermal lenses, This makes it possible to accurately detect the cow’s and newborn calf’s heat signatures, identify when a calf is being born, and perform a final check to confirm that the calf is alive.
