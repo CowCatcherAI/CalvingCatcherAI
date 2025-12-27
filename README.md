@@ -11,13 +11,18 @@ Latest update is using Ip camera with thermal lenses, This makes it possible to 
 
 Other Repo's from the Cowcatcher AI family
 
-**Main repo https://github.com/CowCatcherAI/CowCatcherAI
+## Other Repo's from the Cowcatcher AI family
+**Main repo
+https://github.com/CowCatcherAI/CowCatcherAI
 
-** AI detector (main software base) https://github.com/ESchouten/ai-detector
+** AI detector (main software base)
+https://github.com/ESchouten/ai-detector
 
-**cowcatcher repo for in 100% python code https://github.com/JacobsFarm/CowCatcherAI-python
+**cowcatcher repo for in 100% python code 
+https://github.com/JacobsFarm/CowCatcherAI-python
 
-**Annotation Helper https://github.com/JacobsFarm/annotation_helper_cowcatcherai
+**Annotation Helper
+https://github.com/JacobsFarm/annotation_helper_cowcatcherai
 
 ## 📄 License
 
