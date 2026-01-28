@@ -1,5 +1,5 @@
 # CalvingCatcherAI
-Following up CowCatcherAI with CalvingCatcherAI, this projects mainly revolves around monitoring the status around calving heifers or cows in the calving pen. Giving insights and notification with computervision and an integrated AI agent.
+Following up CowCatcherAI with CalvingCatcherAI, this projects mainly revolves around monitoring the status around calving heifers or cows in the calving pen. Giving insights, information and notification with computervision and an integrated AI agent.
 
 📷 Calving pen camera footage ──→ 🤖 AI Computer Vision ──→ ⚡ calving detection ──→ 💽 save image ──→ AI agent gives opinion and context ──→ 📲 Telegram notification with image and AI agent's reasoning
 
