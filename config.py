@@ -9,7 +9,7 @@
                 "frame_retention": 30
             },
             "yolo": {
-                "model": "https://github.com/CowCatcherAI/CowCatcherAI/releases/download/model-V16/calvingcatcherV5.pt",
+                "model": "https://github.com/CowCatcherAI/CalvingCatcherAI/releases/tag/CalvingcatcherV1/calvingcatcherV5.pt",
                 "confidence": {
                     "waterbag": 0.8,
                     "legs": 0.8,
