@@ -1,15 +1,16 @@
-
 {
+    "$schema": "https://raw.githubusercontent.com/ESchouten/ai-detector/winml-ep/config/config.schema.json",
+    "detectors": [
+        {
             "detection": {
                 "source": [
-                    "rtsp://<camera_1>",
-                    "rtsp://<camera_2>"
+                    "rtsp_url"
                 ],
-                "interval": 0.4,
+                "interval": 0.2,
                 "frame_retention": 30
             },
             "yolo": {
-                "model": "https://github.com/CowCatcherAI/CalvingCatcherAI/releases/tag/CalvingcatcherV1/calvingcatcherV5.pt",
+                "model": "https://github.com/CowCatcherAI/CalvingCatcherAI/releases/tag/CalvingcatcherV1/CalvingcatcherV5.pt",
                 "confidence": {
                     "waterbag": 0.8,
                     "legs": 0.8,
@@ -31,7 +32,7 @@
             },
             "exporters": {
                 "disk": {
-                    "strategy": "ALL",                    
+                    "strategy": "ALL",
                     "directory": "dry_cows"
                 },
                 "telegram": {
@@ -51,4 +52,6 @@
                     }
                 }
             }
-        },
+        }
+    ]
+}
