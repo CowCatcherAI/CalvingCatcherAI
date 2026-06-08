@@ -16,9 +16,6 @@ https://github.com/CowCatcherAI/CowCatcherAI
 ** AI detector (main software base)
 https://github.com/ESchouten/ai-detector
 
-**cowcatcher repo for in 100% python code 
-https://github.com/JacobsFarm/CowCatcherAI-python
-
 **Annotation Helper
 https://github.com/JacobsFarm/annotation_helper_cowcatcherai
 
