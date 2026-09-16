@@ -4,11 +4,11 @@ Following up CowCatcherAI with CalvingCatcherAI, this projects mainly revolves a
 > [!NOTE]
 > **Latest Release:** Our best model is `calvingcatcherV10.pt`.
 
-📷 Calving pen camera footage ──→ 🤖 AI Computer Vision ──→ ⚡ calving detection ──→ 💽 save image ──→ AI agent gives opinion and context ──→ 📲 Telegram notification with image and AI agent's reasoning
+📷 Calving pen camera footage ──→ 🤖 AI Computer Vision ──→ ⚡ calving detection ──→ 💽 save image ──→ 📲 Telegram notification 
 
-We are combining multiple existing open source technologies - for computer vision we are using YOLO from Ultralytics, for the Local AI agent we are using Qwen 3.0 and Moondream AI, which are trained with context around calving, or for less Local the API from any big LLM, and lastly the Telegram Bot
+We are combining multiple existing open source technologies - for computer vision we are using YOLO from Ultralytics, and lastly the Telegram Bot or home assistant for the Alerts
 
-Latest update is using Ip camera with thermal lenses, This makes it possible to accurately detect the cow’s and newborn calf’s heat signatures, identify when a calf is being born, and perform a final check to confirm that the calf is alive.
+<img width="2560" height="1920" alt="5773765776748777253_blurred" src="https://github.com/user-attachments/assets/d19feff5-20b0-466c-b1fb-524782d86e3a" />
 
 Other Repo's from the Cowcatcher AI family
 
@@ -19,14 +19,6 @@ https://github.com/CowCatcherAI/CowCatcherAI
 ** AI detector (main software base)
 https://github.com/ESchouten/ai-detector
 
-**Annotation Helper
-https://github.com/JacobsFarm/annotation_helper_cowcatcherai
-
-## 📄 License
-
-This project uses the GNU Affero General Public License v3.0 (AGPL-3.0). It is based on Ultralytics YOLO and is fully open source.
-IMPORTANT NOTICE: This software/model is NOT authorized for commercial use or distribution.
-
 ## 🙏 Acknowledgments
 
 This project is made possible by the amazing [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) library. Their state-of-the-art computer vision technology forms the foundation for our AI detection of estrus behavior in cows.
@@ -36,3 +28,12 @@ This project is made possible by the amazing [Ultralytics YOLO](https://github.c
 ## 🤝 Contributing
 
 This is an open source project. You may modify and improve it as you see fit. Contributions are welcome via pull requests.
+
+## 📄 License
+
+This project uses the GNU Affero General Public License v3.0 (AGPL-3.0). It is based on Ultralytics YOLO and is fully open source.
+IMPORTANT NOTICE: This software/model is NOT authorized for commercial use or distribution.
+
+## ⚠️ Disclaimer
+
+This software is provided "as is" without warranty of any kind. It is an assistive tool — **not a substitute for professional veterinary advice**. Always confirm detections and consult a veterinarian for animal health decisions. The authors accept no liability for missed detections, false alarms, or decisions made based on this software.
