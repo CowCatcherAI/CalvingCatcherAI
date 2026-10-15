@@ -2,7 +2,7 @@
 Following up CowCatcherAI with CalvingCatcherAI, this projects mainly revolves around monitoring the status around calving heifers or cows in the calving pen. Giving insights, information and notification with computervision and an integrated AI agent.
 
 > [!NOTE]
-> **Latest Release:** Our best model is `calvingcatcherV10.pt`.
+> **Latest Release:** Our best model is `calvingcatcherV11.pt`.
 
 📷 Calving pen camera footage ──→ 🤖 AI Computer Vision ──→ ⚡ calving detection ──→ 💽 save image ──→ 📲 Telegram notification 
 
